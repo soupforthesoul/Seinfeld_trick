@@ -1,0 +1,13 @@
+#dummy{height:1px;
+	width:1px;
+	
+	
+}
+
+div {
+	height:50px;
+	width:50px;
+	background-color:green;
+	border:2px solid blue;
+	/*float:left;*/
+}
