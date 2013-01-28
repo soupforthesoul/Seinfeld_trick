@@ -1,13 +1,28 @@
-#dummy{height:1px;
-	width:1px;
-	
-	
-}
 
-div {
-	height:50px;
-	width:50px;
+
+
+
+.green {
+	height:100px;
+	width:100px;
 	background-color:green;
 	border:2px solid blue;
-	/*float:left;*/
+	float:left;
+	clear:both;
 }
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight { 
+	
+	background: #CC0000;
+}
+
+	/*.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+	border: 1px solid #fcefa1/*{borderColorHighlight}*/
+	/*;*/
+	/*background: #CC0000{bgColorHighlight} url(images/ui-bg_glass_55_fbf9ee_1x400.png){bgImgUrlHighlight} 50%/*{bgHighlightXPos}*/ 50%/*{bgHighlightYPos}*/ repeat-x/*{bgHighlightRepeat}*/;*/
+	/*color: #363636{fcHighlight};*/
+/*}*/
+
+
